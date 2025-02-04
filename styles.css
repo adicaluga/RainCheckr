@@ -1,0 +1,130 @@
+html, body {
+    height: 100%; /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+  }
+  /* General body styling */
+  body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #4B0082, #FF69B4); /* Dark purplish-pink gradient */
+    background-attachment: fixed; /* Fix the background position for smooth scrolling */
+    background-size: cover; /* Ensure the gradient fills the entire area */
+    color: #fff; /* White text for contrast */
+  }
+  
+  /* Center the main container */
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /*Editing the h1 */
+  .container h1{
+    font-size: 40px;
+  }
+  /* Style the input fields */
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #FF69B4; /* Pink border on focus */
+    box-shadow: 0 2px 6px rgba(255, 105, 180, 0.5); /* Highlighted box shadow */
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  /* Search button styling */
+  #search-btn {
+    background: #6A0DAD; /* Purple */
+    color: #fff;
+  }
+  
+  #search-btn:hover {
+    background: #5C0BA7; /* Slightly darker purple */
+  }
+  
+  /* Use location button styling */
+  #use-location-btn {
+    background: #FF69B4; /* Pink */
+    color: #fff;
+  }
+  
+  #use-location-btn:hover {
+    background: #FF1493; /* Darker pink */
+  }
+  
+  /* Toggle unit button styling */
+  #toggle-unit-btn {
+    background: #007BFF; /* Blue */
+    color: #fff;
+  }
+  
+  #toggle-unit-btn:hover {
+    background: #0056b3; /* Darker blue */
+  }
+  
+  /* Style the weather info */
+  #weather-info {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left for better readability */
+    color: #fff; /* White text */
+  }
+  
+  #weather-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  #icon {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+  }
+   
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #4B0082, #FF69B4);     /* color of the tracking area */
+  }
+  /* allows you to make it transparent when hovering*/
+  body::-webkit-scrollbar-track:hover {
+    background: transparent   /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
+  
+  
+  
