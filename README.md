@@ -89,7 +89,7 @@ No build tools or dependencies are required.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/raincheckr.git
+git clone https://github.com/adicaluga/raincheckr.git
 ```
 
 2. Open index.html in your browser.
