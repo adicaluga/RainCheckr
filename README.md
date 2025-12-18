@@ -16,10 +16,11 @@ The goal of this project was to develop a complete web application without frame
 - 🌡️ Temperature Unit Toggle  
   Toggle between Celsius and Fahrenheit without making additional API requests.
 
-- 🎨 Custom UI & Styling  
-  - Purple–pink gradient background  
-  - Styled input fields and buttons  
-  - Card-based layout with subtle shadows  
+- 🎨 Custom UI & Styling
+  - Dark navy gradient background with subtle purple accents
+  - Glassmorphism-inspired card layout with blur and transparency
+  - Consistently styled input fields and buttons for a cohesive user experience
+
 
 - 🖼️ Dynamic Weather Icons  
   Weather icons are fetched directly from the OpenWeatherMap API and are hidden until valid weather data is displayed.
