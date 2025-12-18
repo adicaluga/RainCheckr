@@ -1,7 +1,7 @@
-//API key
+// API key
 const apiKey = "YOUR_API_KEY_HERE";
 
-//Pointing to document pieces
+// ointing to document pieces
 const searchBtn = document.getElementById("search-btn");
 const cityInput = document.getElementById("city");
 const stateInput = document.getElementById("state");
